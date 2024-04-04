@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Roboto"; /*sans serif */
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+             url("Roboto-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Merriweather"; /*serif */
+    font-style: normal;
+    font-weight: 400;
+    src: local("Merriweather"),
+             url("Merriweather-Regular.woff") format("woff");
+  }
+  .header__skillfactory-link{
+    text-decoration: none;
+    color: black;
+    border-right: 3px dotted black;
+    border-top: 3px dotted black;
+  }
+h1{
+    font-family: Merriweather;
+}
+h2{
+    font-family: Merriweather; 
+}
+ol{
+    font-family: Roboto;
+    list-style: none;
+}
+ul{
+    font-family: Roboto;
+    list-style: none;
+}
+aside {
+    display: block;
+}
+
+.header{
+    display: flex;
+    gap: 30px;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:0;
+}
+.header__links_text{
+    font-family: Merriweather;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.header__h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__wrap{
+    display: grid;
+    width: 100%;
+    min-height: 440px;
+    justify-content: center;
+}
+.hero__wrap1{
+    display: flex;
+    width: 700px;
+    min-height: 60px;
+    justify-content:center ;
+    align-items: center;
+    border: solid black;
+}
+.other_link{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px dotted black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.footer__contacts{
+    gap: 40px;
+
+}
+.proof_of_rights{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
